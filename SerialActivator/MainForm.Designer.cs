@@ -28,12 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SerialKeyTextBox = new System.Windows.Forms.TextBox();
+            this.CheckerTextBox = new System.Windows.Forms.TextBox();
+            this.SerialKeyLabel = new System.Windows.Forms.Label();
+            this.CheckerLabel = new System.Windows.Forms.Label();
+            this.GenerateButton = new System.Windows.Forms.Button();
+            this.CheckButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // SerialKeyTextBox
+            // 
+            this.SerialKeyTextBox.Location = new System.Drawing.Point(135, 49);
+            this.SerialKeyTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SerialKeyTextBox.Name = "SerialKeyTextBox";
+            this.SerialKeyTextBox.Size = new System.Drawing.Size(280, 26);
+            this.SerialKeyTextBox.TabIndex = 0;
+            // 
+            // CheckerTextBox
+            // 
+            this.CheckerTextBox.Location = new System.Drawing.Point(135, 102);
+            this.CheckerTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckerTextBox.Name = "CheckerTextBox";
+            this.CheckerTextBox.Size = new System.Drawing.Size(280, 26);
+            this.CheckerTextBox.TabIndex = 1;
+            // 
+            // SerialKeyLabel
+            // 
+            this.SerialKeyLabel.AutoSize = true;
+            this.SerialKeyLabel.Location = new System.Drawing.Point(13, 57);
+            this.SerialKeyLabel.Name = "SerialKeyLabel";
+            this.SerialKeyLabel.Size = new System.Drawing.Size(80, 18);
+            this.SerialKeyLabel.TabIndex = 2;
+            this.SerialKeyLabel.Text = "Serial Key";
+            // 
+            // CheckerLabel
+            // 
+            this.CheckerLabel.AutoSize = true;
+            this.CheckerLabel.Location = new System.Drawing.Point(16, 105);
+            this.CheckerLabel.Name = "CheckerLabel";
+            this.CheckerLabel.Size = new System.Drawing.Size(112, 18);
+            this.CheckerLabel.TabIndex = 3;
+            this.CheckerLabel.Text = "Serial Checker";
+            // 
+            // GenerateButton
+            // 
+            this.GenerateButton.Location = new System.Drawing.Point(439, 51);
+            this.GenerateButton.Name = "GenerateButton";
+            this.GenerateButton.Size = new System.Drawing.Size(90, 30);
+            this.GenerateButton.TabIndex = 4;
+            this.GenerateButton.Text = "Generate";
+            this.GenerateButton.UseVisualStyleBackColor = true;
+            // 
+            // CheckButton
+            // 
+            this.CheckButton.Location = new System.Drawing.Point(439, 99);
+            this.CheckButton.Name = "CheckButton";
+            this.CheckButton.Size = new System.Drawing.Size(90, 30);
+            this.CheckButton.TabIndex = 5;
+            this.CheckButton.Text = "Check";
+            this.CheckButton.UseVisualStyleBackColor = true;
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(566, 182);
+            this.Controls.Add(this.CheckButton);
+            this.Controls.Add(this.GenerateButton);
+            this.Controls.Add(this.CheckerLabel);
+            this.Controls.Add(this.SerialKeyLabel);
+            this.Controls.Add(this.CheckerTextBox);
+            this.Controls.Add(this.SerialKeyTextBox);
+            this.Font = new System.Drawing.Font("Arial", 12F);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "MainForm";
+            this.Text = "Serial Activator";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox SerialKeyTextBox;
+        private System.Windows.Forms.TextBox CheckerTextBox;
+        private System.Windows.Forms.Label SerialKeyLabel;
+        private System.Windows.Forms.Label CheckerLabel;
+        private System.Windows.Forms.Button GenerateButton;
+        private System.Windows.Forms.Button CheckButton;
     }
 }
 
