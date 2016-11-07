@@ -39,18 +39,20 @@
             // SerialKeyTextBox
             // 
             this.SerialKeyTextBox.Location = new System.Drawing.Point(135, 49);
-            this.SerialKeyTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SerialKeyTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.SerialKeyTextBox.Name = "SerialKeyTextBox";
-            this.SerialKeyTextBox.Size = new System.Drawing.Size(280, 26);
-            this.SerialKeyTextBox.TabIndex = 0;
+            this.SerialKeyTextBox.Size = new System.Drawing.Size(350, 26);
+            this.SerialKeyTextBox.TabIndex = 3;
+            this.SerialKeyTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // CheckerTextBox
             // 
             this.CheckerTextBox.Location = new System.Drawing.Point(135, 102);
-            this.CheckerTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckerTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.CheckerTextBox.Name = "CheckerTextBox";
-            this.CheckerTextBox.Size = new System.Drawing.Size(280, 26);
-            this.CheckerTextBox.TabIndex = 1;
+            this.CheckerTextBox.Size = new System.Drawing.Size(350, 26);
+            this.CheckerTextBox.TabIndex = 4;
+            this.CheckerTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // SerialKeyLabel
             // 
@@ -72,27 +74,29 @@
             // 
             // GenerateButton
             // 
-            this.GenerateButton.Location = new System.Drawing.Point(439, 51);
+            this.GenerateButton.Location = new System.Drawing.Point(506, 49);
             this.GenerateButton.Name = "GenerateButton";
             this.GenerateButton.Size = new System.Drawing.Size(90, 30);
-            this.GenerateButton.TabIndex = 4;
+            this.GenerateButton.TabIndex = 0;
             this.GenerateButton.Text = "Generate";
             this.GenerateButton.UseVisualStyleBackColor = true;
+            this.GenerateButton.Click += new System.EventHandler(this.GenerateButton_Click);
             // 
             // CheckButton
             // 
-            this.CheckButton.Location = new System.Drawing.Point(439, 99);
+            this.CheckButton.Location = new System.Drawing.Point(506, 102);
             this.CheckButton.Name = "CheckButton";
             this.CheckButton.Size = new System.Drawing.Size(90, 30);
-            this.CheckButton.TabIndex = 5;
+            this.CheckButton.TabIndex = 2;
             this.CheckButton.Text = "Check";
             this.CheckButton.UseVisualStyleBackColor = true;
+            this.CheckButton.Click += new System.EventHandler(this.CheckButton_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(566, 182);
+            this.ClientSize = new System.Drawing.Size(626, 182);
             this.Controls.Add(this.CheckButton);
             this.Controls.Add(this.GenerateButton);
             this.Controls.Add(this.CheckerLabel);
@@ -100,8 +104,9 @@
             this.Controls.Add(this.CheckerTextBox);
             this.Controls.Add(this.SerialKeyTextBox);
             this.Font = new System.Drawing.Font("Arial", 12F);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Serial Activator";
             this.ResumeLayout(false);
             this.PerformLayout();
