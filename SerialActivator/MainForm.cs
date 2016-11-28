@@ -28,11 +28,11 @@ namespace SerialActivator
         {
             if(SOperations.VerifyCode(CheckerTextBox.Text)==true)
             {
-                MessageBox.Show("Serial is Valid", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Your Serial is Valid", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Serial is Invalid", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Your Serial is Invalid", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }
