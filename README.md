@@ -1,4 +1,4 @@
-[ ![Codeship Status for LudNaucnik/SerialActivator](https://app.codeship.com/projects/a618cc20-97c2-0134-01d1-4e970c50482b/status?branch=master)](https://app.codeship.com/projects/187193)
+[![Build status](https://ci.appveyor.com/api/projects/status/q2mmvxtm3olvk4ta?svg=true)](https://ci.appveyor.com/project/LudNaucnik/serialactivator)
 
 # SerialActivator
 
