@@ -8,7 +8,7 @@ namespace SerialActivator.UnitTest
     public class MainTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestWrongKey()
         {
             Operations SOperations = new Operations();
             String Key = "awdawd";
